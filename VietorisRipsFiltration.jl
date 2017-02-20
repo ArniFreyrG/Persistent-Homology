@@ -1,7 +1,6 @@
 module VietorisRipsFiltration
 using VietorisRipsComplex: VRComplex
 using BasicHomology: compute_faces
-# using Nemo
 
 type VRFiltration
   simplices::Array{Tuple{Int64,Int64,SparseVector{Int64,Int64}}}

@@ -46,5 +46,3 @@ for dim in P
   i -= 1
 end
 PyPlot.show()
-
-plot_homology(point_list)
